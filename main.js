@@ -1,14 +1,79 @@
 // ┌─────────────────┐
 // │ Your code here! │
 // └─────────────────┘
+//==================================================
+//Function to create user
+function createUser(firstName, lastName){
+
+//Object to return first and last name
+
+    const user = {
+        firstName: firstName,
+        lastName: lastName,
+    }
+    return user;
+}
+
+//=====================================================
+
+//Function to setAge
+
+function setAge(user, age){
+    user.age = 50;
+//Object that defines key-value pairs required for project
+   
+    
+    
+  
+    
+    return user;
+}
+//======================================================
+
+//Function to incrementAge
+
+function incrementAge(user, age) {
+    
+    
+        user.age = 50 + 1; 
+    
+    return user;
+    }
 
 
+//========================================
+
+//Function to fixCar
+
+function fixCar(car){
+    
+        
+        car.needsMaitenance= false;
 
 
+    return car;
+}
 
 
+//==========================================
+
+//Function to accept two parameters, a student object and an arry of grades
+
+function addGrades(student, newGrades){
+    
+    newGrades = [88, 70, 90];
+    student.grades.push(newGrades);
 
 
+    return student;
+}
+
+
+//==========================================
+
+//Function getDataType
+
+function getDataType(car, )
 
 
 // ┌─────────────────────────────────────────────────────────────────────────┐
